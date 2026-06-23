@@ -67,12 +67,25 @@
     <h1>Request a Bike Repair</h1>
     <p>Tell us what’s wrong with your bike and we’ll get back to you.</p>
 
-    <input type="text" placeholder="Your Name">
-    <input type="text" placeholder="Phone or Email">
-    <textarea rows="6" placeholder="Describe the problem with your bike..."></textarea>
+<form action="https://formsubmit.co/moljonathon@gmail.com" method="POST">
 
-    <button>Submit Request</button>
-  </div>
+  <input type="hidden" name="_subject" value="New Bike Repair Request">
+
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="hidden" name="_next" value="https://YOURUSERNAME.github.io/YOURREPOSITORY/thanks.html">
+
+  <input type="text" name="Name" placeholder="Your Name" required>
+
+  <input type="email" name="Email" placeholder="Your Email" required>
+
+  <input type="text" name="Phone" placeholder="Phone Number (optional)">
+
+  <textarea name="Problem" rows="6" placeholder="Describe what's wrong with your bike..." required></textarea>
+
+  <button type="submit">Submit Repair Request</button>
+
+</form>
 
 </body>
 </html>
