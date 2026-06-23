@@ -1,55 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>West Michigan Bike Revival</title>
-
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: Arial;
       background: #0b0f0c;
       color: white;
+      text-align: center;
     }
 
     .hero {
       height: 100vh;
-      background: url(https://chatgpt.com/s/m_6a3ac9efb6a08191ac51f5946ec12366) center/cover no-repeat;
+      background: url("https://images.unsplash.com/photo-1508973379184-7517410fb0bc") center/cover no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center;
-      position: relative;
+      flex-direction: column;
     }
 
     .overlay {
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.65);
-    }
-
-    .content {
-      position: relative;
-      z-index: 2;
-      max-width: 700px;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1.3rem;
-      color: #cfcfcf;
-    }
-
-    .tagline {
-      color: #00e676;
-      font-weight: bold;
-      margin: 10px 0 25px;
+      background: rgba(0,0,0,0.6);
+      padding: 40px;
     }
 
     .btn {
@@ -62,70 +35,19 @@
       border-radius: 8px;
       font-weight: bold;
     }
-
-    .btn.secondary {
-      background: transparent;
-      border: 2px solid #00e676;
-      color: #00e676;
-    }
-
-    .section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .card {
-      background: #121a14;
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #070a08;
-      color: #777;
-    }
   </style>
 </head>
 
 <body>
 
   <div class="hero">
-    <div class="overlay"></div>
-
-    <div class="content">
+    <div class="overlay">
       <h1>West Michigan Bike Revival</h1>
-      <div class="tagline">Bringing Bikes Back to Life</div>
-      <p>Professional bike repair & quality used bikes in West Michigan</p>
+      <p>Bringing Bikes Back to Life</p>
 
-      <a href="repairs.html" class="btn">Request Repair</a>
-      <a href="bikes.html" class="btn secondary">Shop Bikes</a>
+      <a class="btn" href="#">Request Repair</a>
     </div>
   </div>
-
-  <div class="section">
-    <h2>What We Do</h2>
-    <div class="grid">
-      <div class="card">Tune-Ups & Adjustments</div>
-      <div class="card">Brake & Gear Repair</div>
-      <div class="card">Flat Tire Repair</div>
-      <div class="card">Full Bike Restorations</div>
-    </div>
-  </div>
-
-  <footer>
-    © 2026 West Michigan Bike Revival
-  </footer>
 
 </body>
 </html>
-🚀 STEP 2 — Save it
