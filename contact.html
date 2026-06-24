@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | West Michigan Bike Revival</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0b0f0c;
+color:white;
+}
+
+.nav{
+background:black;
+padding:18px;
+text-align:center;
+}
+
+.nav a{
+color:#00d26a;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.container{
+max-width:700px;
+margin:auto;
+padding:50px 20px;
+}
+
+h1{
+color:#00d26a;
+}
+
+input, textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+}
+
+button{
+width:100%;
+padding:14px;
+background:#00d26a;
+border:none;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#00b85c;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="bikes.html">Bikes</a>
+<a href="repairs.html">Repairs</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div class="container">
+
+<h1>Contact Me</h1>
+
+<p>
+Have a question? Looking for a specific bike? Need help with repairs?
+Send me a message and I’ll get back to you.
+</p>
+
+<form action="https://formsubmit.co/moljonathon@gmail.com" method="POST">
+
+<input type="hidden" name="_subject" value="New Contact Message - WMBR">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="email" name="Email" placeholder="Your Email" required>
+
+<textarea name="Message" rows="6" placeholder="What do you need help with?" required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
